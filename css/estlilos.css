@@ -1,0 +1,241 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    background: #fff;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    min-width: auto;
+    padding-bottom: 6px;
+    padding-left: 6px; 
+    padding-right: 6px;
+    padding-top: 6px;
+    /*background-color: lightcoral;*/
+}
+
+header .options{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    width: 1251.33px;
+    line-height: 27px;
+    /* background-color: lightskyblue */
+}
+
+
+.options a{ 
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    padding-left: 0px;
+    text-decoration: none;
+    color: #000001;
+    cursor: pointer;
+}
+
+header .options.menu-icon a img{
+    display: inline-block;
+    align-items: center;
+    padding: 0 8px;
+    width: 10px;
+    height: 10px;
+}
+
+header .options a img{ 
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+}
+
+/* Estilos main */
+
+main{
+    height: calc(100%-60px ); 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+main .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120px;
+    width: 1223.330px;
+   /* background-color: lightcyan;*/
+    
+}
+
+main .container figure{
+    height: 92px;
+    width: 272;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .container figure img{
+    height: 92px;
+    width: 272px;
+    object-position: center bottom;
+    width: auto;
+}
+
+main .container .searcher{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47.33px;
+    width: 584.px;
+    border: 1px solid #e1e2e6;
+    background: #fff;
+    /*background-color: teal;*/
+    padding: 0px;
+    border-radius: 24px;
+    margin: 0 auto;
+}
+
+main .container button{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    font-size: 14px;
+    font-stretch: 100%;
+    color: #3c4043;
+    margin-right: 10px;
+    min-width: 54px;
+    cursor: pointer;
+    border: none;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0px;
+    margin-bottom: 11px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 11px;
+    width: 152.41px;
+    height: 36px;
+}
+
+main .container .searcher input{
+    height: 41px;
+    width: 557.33px;
+    display: flex;
+    padding-bottom: 0px;
+    padding-left: 14px;
+    padding-right: 8px;
+    padding-top: 5px;
+    flex-direction: column;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background: #fff;
+}
+
+main .container .searcher:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+
+main .container .searcher-buttons{
+    height: 70px;
+    width: 584px;
+    padding-top: 18px;
+    display: flex;
+    margin:  0 auto;
+    justify-content: center;
+    gap: 10px;
+    height: 48px;
+    /*background-color: rosybrown;*/
+}
+
+main .container .searcher-buttons button{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: #f8f9fa;
+}
+
+main .container .searcher-buttons button:hover{
+    border: 1px solid#dadce0;
+    box-shadow: 1px #dadce0;
+    color: #090909;
+}
+
+main .container p{
+    width: 289.271px;
+    font-size: small;
+    text-decoration: none;
+    color: #202124;
+}
+
+main .searcher .search-logo{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    outline: none;
+    width: 24px;
+    height: 18px;
+    padding: 0px 8px;
+}
+
+main .searcher .micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 18px;
+    cursor: pointer;
+    padding: 0px 8px;
+    outline: none;
+    display: flex;
+}
+
+
+/*footer*/
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-content: left;
+}
+
+footer .footer-right{
+    justify-content: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
